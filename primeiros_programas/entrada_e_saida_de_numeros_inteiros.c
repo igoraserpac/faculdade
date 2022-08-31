@@ -55,7 +55,7 @@ int main(void) {
         for (int i = 10-conta; i>0; i--){
             printf("0");
         }
-        printf("%d, ", -a);
+        printf("%d, ", a);
     }
     printf("B = ");
     for (int i = 10-contb; i>0; i--){
