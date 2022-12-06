@@ -1,18 +1,25 @@
 #include <stdio.h>
 
-void imprime(int n){
-    if(n == 1){
-        printf("%d\n", n);
+void imprime(int i, int n){
+    if(i == n){
+        for(int j=0; j<n; j++){
+            printf("*");
+        }
+        printf("\n");
     }else{
-        imprime(n-1);
-        for(int i=n; i>0; i--){
-            printf("%d", n);
+        for(int j=0; j<i; j++){
+            printf("*");
+        }
+        printf("\n");
+        imprime(i+1, n);
+        for(int j=0; j<i; j++){
+            printf("*");
         }
         printf("\n");
     }
 }
 
 int main(){
-    imprime(5);
+    imprime(1, 5);
     return 0;
 }
