@@ -1,0 +1,12 @@
+--------------------
+primeiro arquivo
+
+uma linha
+outra linha
+-------------------
+--------------------
+segundo arquivo
+
+uma linha
+outra linha
+--------------------
